@@ -1,4 +1,3 @@
-bootstrap.css
  248 color
  248 background-color
  237 display
