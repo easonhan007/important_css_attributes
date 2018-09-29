@@ -44,3 +44,11 @@ python make_doc.py > reference.md
 ### reference 文件
 
 [reference.md](/reference.md)
+
+### 总流程
+
+```
+./download.sh # 下载css文件
+./attr.sh *.css > all.txt # 输出临时文件
+python make_doc.py > reference.md # 创建md文件
+```
